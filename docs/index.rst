@@ -1,4 +1,4 @@
-Welcome to cipher_new_ih2400's documentation!
+Welcome to cipher_ih2400_v1's documentation!
 ===========================================================
 
 .. image:: https://img.shields.io/badge/tutorial-py--pkgs-blue
@@ -10,7 +10,7 @@ Welcome to cipher_new_ih2400's documentation!
 .. image:: https://img.shields.io/badge/badges-shields.io-brightgreen
         :target: https://shields.io/
 
-This cookiecutter creates a boilerplate for a Python project.
+This project is for Homework 7 of my MDS course.
 
 To get started, check out the sections below:
 

@@ -15,7 +15,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/isabella808/cipher_new_ih2400/issues.
+Report bugs at https://github.com/isabella808/cipher_ih2400_v1/issues.
 
 If you are reporting a bug, please include:
 
@@ -38,14 +38,14 @@ and "help wanted" is open to whoever wants to implement it.
 Write Documentation
 ~~~~~~~~~~~~~~~~~~~
 
-cipher_new_ih2400 could always use more documentation, whether as part of the
-official cipher_new_ih2400 docs, in docstrings, or even on the web in blog posts,
+cipher_ih2400_v1 could always use more documentation, whether as part of the
+official cipher_ih2400_v1 docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/isabella808/cipher_new_ih2400/issues.
+The best way to send feedback is to file an issue at https://github.com/isabella808/cipher_ih2400_v1/issues.
 
 If you are proposing a feature:
 
@@ -57,21 +57,21 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `cipher_new_ih2400` for local development.
+Ready to contribute? Here's how to set up `cipher_ih2400_v1` for local development.
 
-1. Fork the `cipher_new_ih2400` repo on GitHub.
+1. Fork the `cipher_ih2400_v1` repo on GitHub.
 2. Clone your fork locally::
 
-    $ git clone git@github.com:your_name_here/cipher_new_ih2400.git
+    $ git clone git@github.com:your_name_here/cipher_ih2400_v1.git
 
 3. Install your local copy (it is recommended to do this with a virtual environment). The method of installation will depend on the packaging library being used.
-   For example, if `setuptools` is being used (a setup.py file is present), install cipher_new_ih2400 with:
+   For example, if `setuptools` is being used (a setup.py file is present), install cipher_ih2400_v1 with:
 
    .. code-block:: console
 
        $ python setup.py install
 
-   If `poetry` is being used (poetry.lock and pyproject.toml files are present), install cipher_new_ih2400 with:
+   If `poetry` is being used (poetry.lock and pyproject.toml files are present), install cipher_ih2400_v1 with:
 
    .. code-block:: console
 
@@ -84,7 +84,7 @@ Ready to contribute? Here's how to set up `cipher_new_ih2400` for local developm
 5. When you're done making changes, check that your changes conform to any code formatting requirements and pass any tests.
    For example, if the package uses the poetry package management library, black formatting style and pytest for testing::
 
-    $ poetry run black cipher_new_ih2400
+    $ poetry run black cipher_ih2400_v1
     $ poetry run pytest
 
 6. Commit your changes and push your branch to GitHub::
@@ -106,4 +106,4 @@ Before you submit a pull request, check that it meets these guidelines:
 
 Code of Conduct
 ---------------
-Please note that the cipher_new_ih2400 project is released with a Contributor Code of Conduct. By contributing to this project you agree to abide by its terms.
+Please note that the cipher_ih2400_v1 project is released with a Contributor Code of Conduct. By contributing to this project you agree to abide by its terms.

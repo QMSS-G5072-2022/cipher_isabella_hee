@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = python -msphinx
-SPHINXPROJ    = cipher_new_ih2400
+SPHINXPROJ    = cipher_ih2400_v1
 SOURCEDIR     = .
 BUILDDIR      = _build
 

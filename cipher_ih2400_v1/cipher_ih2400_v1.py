@@ -6,7 +6,7 @@ def cipher(text, shift, encrypt=True):
     ----------
     text: This is the text to be encrypted/decrypted.
     shift: Degree that text is to be encrpyted. Shift = 1 encrypts it one letter forward, shift=2 two letters forward, and so on. 
-    encypt: encrypt=True to encrypt, encrypt=False to decrypt.
+    encypt: boolean for encrypting options, encrypt=True to encrypt, encrypt=False to decrypt.
     
     
     Returns
