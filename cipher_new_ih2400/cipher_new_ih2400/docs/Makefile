@@ -1,9 +1,10 @@
 # Minimal makefile for Sphinx documentation
+#
 
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = python -msphinx
-SPHINXPROJ    = cipher_ih2400
+SPHINXPROJ    = cipher_new_ih2400
 SOURCEDIR     = .
 BUILDDIR      = _build
 
