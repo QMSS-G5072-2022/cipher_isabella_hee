@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>cipher_ih2400_v1 package &#8212; cipher_ih2400_v1  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="cipher-ih2400-v1-package">
+<h1>cipher_ih2400_v1 package<a class="headerlink" href="#cipher-ih2400-v1-package" title="Permalink to this heading">¶</a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="module-cipher_ih2400_v1.cipher_ih2400_v1">
+<span id="cipher-ih2400-v1-cipher-ih2400-v1-module"></span><h2>cipher_ih2400_v1.cipher_ih2400_v1 module<a class="headerlink" href="#module-cipher_ih2400_v1.cipher_ih2400_v1" title="Permalink to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="cipher_ih2400_v1.cipher_ih2400_v1.cipher">
+<span class="sig-prename descclassname"><span class="pre">cipher_ih2400_v1.cipher_ih2400_v1.</span></span><span class="sig-name descname"><span class="pre">cipher</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">shift</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">encrypt</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/cipher_ih2400_v1/cipher_ih2400_v1.html#cipher"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cipher_ih2400_v1.cipher_ih2400_v1.cipher" title="Permalink to this definition">¶</a></dt>
+<dd><p>This encrypts and decrypts any given text.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>text</strong> (<em>This is the text to be encrypted/decrypted.</em>) – </p></li>
+<li><p><strong>shift</strong> (<em>Degree that text is to be encrpyted. Shift = 1 encrypts it one letter forward</em><em>, </em><em>shift=2 two letters forward</em><em>, </em><em>and so on.</em>) – </p></li>
+<li><p><strong>encypt</strong> (<em>boolean for encrypting options</em><em>, </em><em>encrypt=True to encrypt</em><em>, </em><em>encrypt=False to decrypt.</em>) – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>new_text</p>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">cipher</span><span class="p">(</span><span class="n">Hello</span><span class="p">,</span> <span class="n">shift</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">encypt</span><span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<span class="go">returns: Ifmmp</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">cipher</span><span class="p">(</span><span class="n">Ifmmp</span><span class="p">,</span> <span class="n">shift</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">encrypt</span><span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+<span class="go">returns: Hello</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</section>
+<section id="module-cipher_ih2400_v1">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-cipher_ih2400_v1" title="Permalink to this heading">¶</a></h2>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">cipher_ih2400_v1</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../conduct.html">Code of Conduct</a></li>
+</ul>
+
+
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2022, Isabella Hee.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.3.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/source/cipher_ih2400_v1.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
